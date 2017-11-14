@@ -1,3 +1,4 @@
+$(document).foundation()
 particlesJS('particles-js', {
   "particles": {
     "number": {
@@ -8,7 +9,7 @@ particlesJS('particles-js', {
       }
     },
     "color": {
-      "value": ["#f7df1e", "#C3F73A", "#EC0868"]
+      "value": ["#39393A", "#C3F73A", "#FC440F", "#2EC4B6"]
     },
     "shape": {
       "type": "circle",
@@ -72,7 +73,7 @@ particlesJS('particles-js', {
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "repulse"
+        "mode": "bubble"
       },
       "onclick": {
         "enable": true,
@@ -88,10 +89,10 @@ particlesJS('particles-js', {
         }
       },
       "bubble": {
-        "distance": 400,
-        "size": 40,
-        "duration": 2,
-        "opacity": 8,
+        "distance": 250,
+        "size": 10,
+        "duration": 5.1,
+        "opacity": 1,
         "speed": 3
       },
       "repulse": {
