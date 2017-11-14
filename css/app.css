@@ -9,7 +9,7 @@ body{
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color:#fff;
+  background-color: #fff;
   background-repeat: no-repeat;
   /*background-position: 50% 50%;*/
   z-index: 0;
@@ -18,6 +18,9 @@ body{
 	margin-top: 10px;
 	margin-left: 20px;
 	color: black;
+}
+.black{
+	color: #333333;
 }
 /*::::::Global_End::::::*/
 
@@ -47,12 +50,10 @@ body{
 /*:::::::About_Section:::::::::*/
 #aboutSection {
 	height: 200px;
-	background-color: #C3F73A;
 	position: relative;
 }
 
 #aboutParagraph {
-	color: black;
 	padding: 20px;
 }
 /*:::::::About_Section_End:::::::::*/
@@ -60,7 +61,6 @@ body{
 /*:::::::Project_Section:::::::::*/
 #projectsSection {
 	position: relative;
-	background-color: #FC440F;
 }
 
 /*:::::::Project_Section_End:::::::::*/
@@ -69,13 +69,11 @@ body{
 /*:::::::Skills_Section:::::::::*/
 #skillsSection {
 	position: relative;
-	background-color: #2EC4B6;
 }
 /*:::::::Skills_Section_End:::::::::*/
 
 /*:::::::Contact_Section:::::::::*/
 #contactSection {
 	position: relative;
-	background-color: #121416;
 }
 /*:::::::Contact_Section_End:::::::::*/
