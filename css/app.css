@@ -1,9 +1,9 @@
-
+/*:::::::Global:::::::*/
 body{
   margin: 0;
 }
-#content{
-  position: fixed;
+#posRelative{
+  position: relative;
 }
 #particles-js {
   position: absolute;
@@ -14,7 +14,15 @@ body{
   /*background-position: 50% 50%;*/
   z-index: 0;
 }
+.marginL {
+	margin-top: 10px;
+	margin-left: 20px;
+	color: black;
+}
+/*::::::Global_End::::::*/
 
+
+/*:::::::Header::::::*/
 #pLogo{
 	width: 50px;
 	height: 50px;
@@ -24,5 +32,50 @@ body{
 
 #menu {
 	margin-top: 20px;
-	background-color: $background-color;
 }
+
+#greeting{
+	font-size: 5em;
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 150px;
+
+}
+/*:::::::Header_End::::::*/
+
+
+/*:::::::About_Section:::::::::*/
+#aboutSection {
+	height: 200px;
+	background-color: #C3F73A;
+	position: relative;
+}
+
+#aboutParagraph {
+	color: black;
+	padding: 20px;
+}
+/*:::::::About_Section_End:::::::::*/
+
+/*:::::::Project_Section:::::::::*/
+#projectsSection {
+	position: relative;
+	background-color: #FC440F;
+}
+
+/*:::::::Project_Section_End:::::::::*/
+
+
+/*:::::::Skills_Section:::::::::*/
+#skillsSection {
+	position: relative;
+	background-color: #2EC4B6;
+}
+/*:::::::Skills_Section_End:::::::::*/
+
+/*:::::::Contact_Section:::::::::*/
+#contactSection {
+	position: relative;
+	background-color: #121416;
+}
+/*:::::::Contact_Section_End:::::::::*/
