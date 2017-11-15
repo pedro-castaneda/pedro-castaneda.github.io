@@ -60,12 +60,10 @@ body{
 #aboutSection {
 	height: 200px;
   position:relative;
-  word-wrap:break-word;
 }
 
 #aboutParagraph {
 	padding: 20px;
-  word-wrap: break-word;
 }
 /*:::::::About_Section_End:::::::::*/
 
