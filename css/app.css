@@ -19,12 +19,16 @@ body{
 	margin-left: 20px;
 	color: black;
 }
+.marginB{
+  margin-bottom: 20px;
+}
 .black{
 	color: #333333;
 }
 .montsFnt{
 	font-family: 'Montserrat', sans-serif;
 }
+
 /*::::::Global_End::::::*/
 
 
@@ -55,17 +59,20 @@ body{
 /*:::::::About_Section:::::::::*/
 #aboutSection {
 	height: 200px;
-	position: relative;
+  position:relative;
+  word-wrap:break-word;
 }
 
 #aboutParagraph {
 	padding: 20px;
+  word-wrap: break-word;
 }
 /*:::::::About_Section_End:::::::::*/
 
 /*:::::::Project_Section:::::::::*/
 #projectsSection {
-	position: relative;
+  height: 200px;
+  position: relative;
 }
 
 /*:::::::Project_Section_End:::::::::*/
@@ -73,12 +80,14 @@ body{
 
 /*:::::::Skills_Section:::::::::*/
 #skillsSection {
-	position: relative;
+  height: 200px;
+  position: relative;
 }
 /*:::::::Skills_Section_End:::::::::*/
 
 /*:::::::Contact_Section:::::::::*/
 #contactSection {
+  height: 200px;
 	position: relative;
 }
 /*:::::::Contact_Section_End:::::::::*/
