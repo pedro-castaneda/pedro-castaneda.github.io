@@ -8,7 +8,7 @@ body{
 #particles-js {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 1800px;
   background-color: #fff;
   background-repeat: no-repeat;
   /*background-position: 50% 50%;*/
@@ -19,8 +19,8 @@ body{
 	margin-left: 20px;
 	color: black;
 }
-.marginB{
-  margin-bottom: 20px;
+.marginT{
+  margin-top: 20px;
 }
 .black{
 	color: #333333;
@@ -58,18 +58,20 @@ body{
 
 /*:::::::About_Section:::::::::*/
 #aboutSection {
-	height: 200px;
+	height: 300px;
   position:relative;
+  margin: 10px;
+  margin-bottom: 30px;
 }
 
 #aboutParagraph {
-	padding: 20px;
+
 }
 /*:::::::About_Section_End:::::::::*/
 
 /*:::::::Project_Section:::::::::*/
 #projectsSection {
-  height: 200px;
+  height: 300px;
   position: relative;
 }
 
@@ -78,14 +80,14 @@ body{
 
 /*:::::::Skills_Section:::::::::*/
 #skillsSection {
-  height: 200px;
+  height: 300px;
   position: relative;
 }
 /*:::::::Skills_Section_End:::::::::*/
 
 /*:::::::Contact_Section:::::::::*/
 #contactSection {
-  height: 200px;
+  height: 300px;
 	position: relative;
 }
 /*:::::::Contact_Section_End:::::::::*/
