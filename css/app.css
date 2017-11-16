@@ -63,9 +63,6 @@ html, body{
 	font-size: 1em;
 }
 
-.card-text {
-
-}
 
 /*::::::Global_End::::::*/
 
@@ -79,7 +76,13 @@ html, body{
 }
 
 #menu {
-	margin-top: 20px;
+	margin-top: 25px;
+}
+
+.menuItm {
+	font-size: 1em;
+	font-weight: 700;
+	color: #121416;
 }
 .profileSec {
   height: 300px;
@@ -107,6 +110,7 @@ html, body{
 	font-weight: 900;
 	margin-bottom: 120px;
 	text-align: center;
+	color: #121416;
 
 }
 /*:::::::Header_End::::::*/
