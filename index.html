@@ -9,17 +9,19 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/particles.js"></script>
   </head>
   <body>
+    <div class="wrapper">
       <!--::::::::::::::HEADER_START:::::::::::::::::::::-->
       <div id='particles-js'></div>
       <div id='posRelative' class='container-fluid'>
           <div class="row">
             <div class="col-2"><a><img id="pLogo" src="assets/img/pedrologoinsta.jpg"></a></div>
             <div class="col-10">
-              <nav id="menu" class="nav justify-content-end">
+              <nav id="menu" class="nav justify-content-end sansFnt">
                 <a class="nav-link" href="#">About</a>
                 <a class="nav-link" href="#">Portfolio</a>
                 <a class="nav-link" href="#">Contact</a>
@@ -33,39 +35,69 @@
         <!--::::::::::::::HEADER_END:::::::::::::::::::::-->
 
         <!--::::::::::::::ABOUT_SECTION_START:::::::::::::::::::::-->
-      <div class="container">
-          <div id='posRelative' class="row">
-            <h1 id="greeting" class="black">Hi, I am <br/>Pedro Castaneda</h1>
+      <div class="container-fluid">
+          <div class="row profileSec">
+            <div class="col-sm-12 col-md-12">
+              <img id="profilePic" src="assets/img/ProfilePic.png">
+            </div>
+            <div class="col-sm-12 col-md-12"> 
+              <h1 id="greeting" class="blackFnt">Hi, I am <br/>Pedro Castaneda</h1>
+            </div>
           </div>
-          <div id='aboutSection' class="row">
-            <h2 class="marginL black montsFnt col-12">About</h2>
-            <p class="white" id="aboutParagraph">Nitobi. Because JavaScript. Pure Function is a framework for information about the ECMAScript 2015 / ES6 code with Node. CSS, it is a prototypical instance, which started as Gmail take advantage of creating user interfaces with a function while retaining their methods and easy DOM in which a JavaScript program could Canvas is a dependency manager to extend JavaScript developer.</p>
+          <div class="row section">
+            <div class="card col-12" style="width: 20rem;">
+              <h4 class="card-header montsFnt">About</h4>
+              <div class="card-body">
+                <h4 class="card-title">Let me introduce myself</h4>
+                <p class="card-text sansFnt">Nitobi. Because JavaScript. Pure Function is a framework for information about the ECMAScript 2015 / ES6 code with Node. CSS, it is a prototypical instance, which started as Gmail take advantage of creating user interfaces with a function while retaining their methods and easy DOM in which a JavaScript program could Canvas is a dependency manager to extend JavaScript developer.</p>
+              </div>
+            </div>
           </div>
         <!--::::::::::::::ABOUT_SECTION_END:::::::::::::::::::::-->
 
         <!--::::::::::::::PROJECTS_SECTION:::::::::::::::::::::-->
-          <div id="projectsSection" class="row">
-            <h2 class="marginL marginT black montsFnt">Projects</h2>
-          </div>
-          <div class="row">
-            <p class="marginL"><a class="white" href="Factorialize/index.html">Factorialize</a></p>
+          <div class="row section ">
+            <div class="card col-12">
+              <h4 class="card-header montsFnt">Projects</h4>
+              <div class="card-body">
+                <h4 class="card-title"><a href="#">Factorialize</a></h4>
+                <p class="card-text sansFnt">A simple app that takes a number and returns its factorial value.</p>
+              </div>
+            </div>
           </div>
         <!--::::::::::::::PROJECTS_SECTION_END:::::::::::::::::::::-->
-
+          <div class="row particles">
+            <h5 id="particleHeading" class="montsFnt">Tap on the Particles:</h5>
+          </div>
          <!--::::::::::::::SKILLS_SECTION:::::::::::::::::::::-->
-          <div id="skillsSection" class="row">
-            <h2 class="marginL black montsFnt">Skills</h2>
+          <div class="row section">
+            <div class="card col-12">
+              <h4 class="card-header montsFnt">Skills</h4>
+              <div class="card-body">
+                <h4 class="card-title">HTML 5</h4>
+                <p class="card-text sansFnt">Rapid web Development with bootstrap</p>
+              </div>
+            </div>
           </div>
         <!--::::::::::::::SKILLS_SECTION_END:::::::::::::::::::::-->
 
-        <!--::::::::::::::SKILLS_SECTION:::::::::::::::::::::-->
-          <div id="contactSection" class="row">
-            <h2 class="marginL black montsFnt">Contact</h2>
+        <!--::::::::::::::CONTACT_SECTION:::::::::::::::::::::-->
+          <div class="row section">
+            <div class="card col-12">
+              <h4 class="card-header montsFnt">Contact</h4>
+              <div class="card-body">
+                <h4 class="card-title">Email</h4>
+                <p class="card-text sansFnt">pedrocastaneda.one@gmail.com</p>
+                <h4 class="card-title">Code</h4>
+                <p class="card-text sansFnt">github.com/pedro-castaneda</p>
+              </div>
+            </div>
           </div>
-        <!--::::::::::::::SKILLS_SECTION_END:::::::::::::::::::::-->
+        <!--::::::::::::::CONTACT_SECTION_END:::::::::::::::::::::-->
       </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/app.js"></script>
+  </div>
   </body>
 </html>

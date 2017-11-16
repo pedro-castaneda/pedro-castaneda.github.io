@@ -1,6 +1,10 @@
 /*:::::::Global:::::::*/
-body{
+html, body{
   margin: 0;
+  padding: 0;
+}
+.wrapper {
+	overflow-x: hidden;
 }
 #posRelative{
   position: relative;
@@ -9,24 +13,55 @@ body{
   position: absolute;
   width: 100%;
   height: 1800px;
-  background-color: #fff;
+  background-color: #fafafa;
   background-repeat: no-repeat;
   /*background-position: 50% 50%;*/
   z-index: 0;
 }
-.marginL {
-	margin-top: 10px;
-	margin-left: 20px;
-	color: black;
+.particles {
+  height: 300px;
+  position:relative;
+  background-color: none;
+  border-radius: 5px;
+  margin-bottom: 350px; 
+  width: 100%;
+  height: 100%;
 }
-.marginT{
-  margin-top: 20px;
+#particleHeading {
+ margin-left: 20px;
 }
-.black{
-	color: #333333;
-}
-.montsFnt{
+
+.montsFnt {
 	font-family: 'Montserrat', sans-serif;
+}
+.sansFnt {
+	font-family: 'Open Sans', sans-serif;
+}
+.section {
+  height: 300px;
+  position:relative;
+  background-color: none;
+  border-radius: 5px;
+  margin-bottom: 40px; 
+  width: 100%;
+  height: 100%;
+}
+.card {
+	margin-left: 5px;
+	margin-left: 10px;
+	border: none;
+	border-left: 10px solid #1fadc5;
+}
+.card-header {
+	background-color: white;
+}
+
+.card-title {
+	font-size: 1em;
+}
+
+.card-text {
+
 }
 
 /*::::::Global_End::::::*/
@@ -43,51 +78,95 @@ body{
 #menu {
 	margin-top: 20px;
 }
+.profileSec {
+  height: 300px;
+  position:relative;
+  background-color: none;
+  margin-bottom: 20px; 
+  width: 100%;
+  height: 100%;
+}
+#profilePic {
+	border-radius: 100%;
+	height: 120px;
+	width: 120px;
+	margin-right: 50px;
+	display: block;
+	margin: auto;
+	margin-top: 120px;
+}
 
 #greeting{
-	font-size: 5em;
-	margin: auto;
-	margin-top: 150px;
-	margin-bottom: 150px;
+	margin-top: 100px;
+	height: 100px;
+	font-size: 4em;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
+	margin-bottom: 70px;
+	text-align: center;
 
 }
 /*:::::::Header_End::::::*/
 
 
 /*:::::::About_Section:::::::::*/
-#aboutSection {
-	height: 300px;
-  position:relative;
-  margin: 10px;
-  margin-bottom: 30px;
-}
-
-#aboutParagraph {
+#aboutSec {
 
 }
 /*:::::::About_Section_End:::::::::*/
 
 /*:::::::Project_Section:::::::::*/
-#projectsSection {
-  height: 300px;
-  position: relative;
+#projectsSec {
+	
 }
-
 /*:::::::Project_Section_End:::::::::*/
 
 
 /*:::::::Skills_Section:::::::::*/
-#skillsSection {
-  height: 300px;
-  position: relative;
+#skillsSec {
+	
 }
+
 /*:::::::Skills_Section_End:::::::::*/
 
 /*:::::::Contact_Section:::::::::*/
-#contactSection {
-  height: 300px;
-	position: relative;
+#contactSec {
+	
 }
+
 /*:::::::Contact_Section_End:::::::::*/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) { 
+#greeting{
+	margin-top: 10px;
+	font-size: 2.5em;
+	margin-bottom: 0px;
+}
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+#greeting{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	text-align: left;
+}
+
+#profilePic {
+	display: inline;
+}
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {
+
+}
+
+/*Extra large devices (large desktops)*/
+/*No media query since the extra-large breakpoint has no upper bound on its width*/
